@@ -228,3 +228,9 @@
     top: 50%;
     left: 25%;
 }
+
+.divimage{
+   margin: 0;
+    padding: 0!important;
+    overflow:hidden;
+}
