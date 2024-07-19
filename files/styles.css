@@ -105,14 +105,14 @@
 }
 
 .container_img_1{
-    background-image: url("foto1.jpg");
+    background-image: url("../img/img_textolargo.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
 .container_img_2{
-    background-image: url("foto2.jpg");
+    background-image: url("../img/imagen_miniiconos.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -153,6 +153,10 @@
 
 .border_bottom_white{
     border-bottom: 1px solid white !important;
+}
+
+.noborder{
+    border: 0!important;
 }
 
 .full-screen-carousel{
@@ -234,4 +238,15 @@
    margin: 0;
     padding: 0!important;
     overflow:hidden;
+}
+
+.tam_font{
+    font-size: 30px;
+    text-shadow: 1px 1px black;
+}
+
+.fontpageweb_negrita{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
