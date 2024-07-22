@@ -64,6 +64,10 @@
     align-items: center;
 }
 
+.text_left{
+    align-items: end!important;
+}
+
 .navbar_css{
     background-color: transparent;
     border-bottom: 1px solid white!important;
@@ -216,8 +220,12 @@
     background-color: transparent;
     padding: 10px;
     border-radius: 5px;
-    text-align: center;
+
     font-size: 1.2em;
+}
+
+.text_end{
+    text-align: end;
 }
 
 .position-overlay-left {
@@ -232,6 +240,38 @@
 .position-overlay-center-left {
     top: 50%;
     left: 25%;
+}
+
+.position-img-right {
+    top: 20%;
+    left: 50%;
+}
+
+.position-img-left {
+    top: 20%;
+    left: 0;
+    margin-left: 5vh;
+}
+
+.position-img-right2{
+    top: 20%;
+    left: 50%;
+    margin-right: 5vh;
+}
+
+.fontpageweb_negrita_img{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: 2px 2px black;
+    font-size: 38px;
+}
+
+.fontpageweb_img{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
 }
 
 .divimage{
@@ -249,4 +289,55 @@
     font-family: "Fira Sans", sans-serif;
     font-weight: 500;
     font-style: normal;
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#form p {
+    text-align: center;
+}
+
+#form label {
+    font-size: 20px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    color: grey;
+}
+
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+    color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+    color: orange;
+}
+
+.border_bottom_gray{
+    border-bottom: 1px solid gray !important;
+}
+
+.max_tam_cards{
+    max-height: 200px;
+    max-width: 400px;
+}
+
+.active{
+    border-radius: 0!important;
+    border: none!important;
+    border-bottom: 1px solid #2B789E !important;
 }
