@@ -14,3 +14,16 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(element);
     });
 });
+
+
+window.addEventListener('scroll', function () {
+    const nav = document.getElementById("nav");
+    const logoImg = document.getElementById("logo");
+    if (window.scrollY > 0) {
+        nav.classList.add('active');
+        logoImg.src = "../img/logo.jpg";
+    } else {
+        nav.classList.remove('active');
+        logoImg.src = "../img/logotipo_blanco_2024.png";
+    }
+});

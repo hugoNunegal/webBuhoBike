@@ -374,3 +374,75 @@ input[type="radio"]:checked ~ label {
 .animate-on-scroll.visible {
     animation: slide-in-right 1s forwards;
 }
+
+.max_tam_section{
+    max-width: 1570px;
+}
+
+.nav.active{
+    background-color: black !important;
+    border: 0!important;
+}
+
+.nav{
+    transition: all 0.5s ease;
+}
+
+.btn_blue{
+    border: 0!important;
+    background-color: #2B789E!important;
+    color: white!important;
+    font-family: "Fira Sans", sans-serif!important;
+    font-weight: 500!important;
+    font-style: normal!important;
+    font-size: 16px!important;
+    padding-left: 28.8px!important;
+    padding-right: 28.8px!important;
+    border-radius: 3px!important;
+}
+
+.btn_green{
+    border: 0!important;
+    background-color: #b7b339!important;
+    color: white!important;
+    font-family: "Fira Sans", sans-serif!important;
+    font-weight: 500!important;
+    font-style: normal!important;
+    font-size: 16px!important;
+    padding-left: 28.8px!important;
+    padding-right: 28.8px!important;
+    border-radius: 3px!important;
+}
+
+.card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    line-height: 1.2em;
+    max-height: 5em;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-container .card-img-top {
+    transition: transform 0.5s ease;
+}
+
+.img-container .overlay-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.img-container:hover .overlay-logo {
+    opacity: 1;
+}
